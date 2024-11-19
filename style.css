@@ -5,7 +5,7 @@
 
 @layer components {
     .image {
-        @apply max-[900px]:w-10 max-[900px]:h-10 max-[1024px]:w-28 max-[1024px]:h-28 w-52 -mt-[5.2rem]
+        @apply max-[900px]:w-10 max-[900px]:h-10 max-[1024px]:w-28 max-[1024px]:h-28 w-52
     }
 
     .responsive {
@@ -13,7 +13,7 @@
      }
 
     .nav-menu {
-        @apply max-[900px]:fixed max-[900px]:top-20 max-[900px]:-left-full max-[900px]:flex-col max-[900px]:justify-center max-[900px]:items-center max-[900px]:backdrop-blur-[20px] max-[900px]:w-full max-[900px]:min-h-[450px] max-[900px]:h-[90vh] max-[900px]:duration-300 text-white text-lg my-2.5 ml-20
+        @apply max-[900px]:fixed max-[900px]:top-20 max-[900px]:-left-full max-[900px]:flex-col max-[900px]:justify-center max-[900px]:items-center max-[900px]:backdrop-blur-[20px] max-[900px]:w-full max-[900px]:min-h-[450px] max-[900px]:h-[90vh] max-[900px]:duration-300 text-white text-lg my-3 ml-20
     }
 
     .nav-link {

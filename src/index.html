@@ -10,7 +10,7 @@
 <body class="text-white">
     <header class = "flex fixed w-full h-24 leading-loose justify-center ps-[12vw] pe-[12vw] z-50 gap-80">
         <nav id="header" class="max-[900px]:mx-12 flex ml-0 my-5">
-            <div class="image flex-initial">
+            <div class="image flex-initial -mt-[5.2rem]">
                 <img src="media/logo_froska.PNG" alt="Froska_Logo">
             </div>
 
@@ -26,9 +26,9 @@
             </div>
 
             <div class="flex gap-[10px]">
-                <div class="flex justify-center items-center w-10 h-10 rounded-3xl shadow-[0px_2px_5px_0px_rgba(0,0,0,0.25)] hover:text-[#6e57e0]"><i class="fa-brands fa-x-twitter"></i></div>
-                <div class="flex justify-center items-center w-10 h-10 rounded-3xl shadow-[0px_2px_5px_0px_rgba(0,0,0,0.25)] hover:text-[#6e57e0]"><i class="fa-brands fa-telegram"></i></div>
-                <div class="flex justify-center items-center w-10 h-10 rounded-3xl shadow-[0px_2px_5px_0px_rgba(0,0,0,0.25)] hover:text-[#6e57e0]"><i class="fa-brands fa-discord"></i></div>
+                <div class="flex justify-center items-center w-10 h-10 my-2.5 rounded-3xl shadow-[0px_2px_5px_0px_rgba(0,0,0,0.25)] hover:text-[#6e57e0]"><i class="fa-brands fa-x-twitter"></i></div>
+                <div class="flex justify-center items-center w-10 h-10 my-2.5 rounded-3xl shadow-[0px_2px_5px_0px_rgba(0,0,0,0.25)] hover:text-[#6e57e0]"><i class="fa-brands fa-telegram"></i></div>
+                <div class="flex justify-center items-center w-10 h-10 my-2.5 rounded-3xl shadow-[0px_2px_5px_0px_rgba(0,0,0,0.25)] hover:text-[#6e57e0]"><i class="fa-brands fa-discord"></i></div>
             </div>
 
             <div class="max-[900px]:hidden flex-initial w-44 ml-7 box-border">
@@ -41,7 +41,7 @@
     </header>
 
     <main class="bg-body-color">
-        <section id="home" class="max-[900px]:flex-col max-[900px]:justify-center max-[900px]:h-[100vh] ps-[12vw] pe-[12vw] relative flex flex-col bg-hero-pattern opacity-65 bg-cover bg-blend-multiply bg-center h-[100vh]">
+        <section id="home" class="max-[900px]:flex-col max-[900px]:justify-center max-[900px]:h-[100vh] ps-[12vw] pe-[12vw] relative flex flex-col bg-hero-pattern bg-cover bg-blend-multiply bg-center h-[100vh]">
             <div class="pt-[8.5rem] pb-12 text-right">
                 <div class="ps-8 pe-8 py-8 text-white opacity-100">
                     <p class ="featured-name">PAWS AND SPIN</p>
@@ -97,7 +97,7 @@
                         </div>
                         <div>
                             <h3 class = "font-bold">Buy Froska Tokens</h3>
-                            <p class="text-[15px] text-deep-purple">Acquire Froska tokens exclusively on Hercules, the premier DEX on the Metis Andromeda network, using METIS.</p>
+                            <p class="text-[15px] text-teal-100">Acquire Froska tokens exclusively on Hercules, the premier DEX on the Metis Andromeda network, using METIS.</p>
                         </div>
                     </div>
                     <div class= "flex gap-4">
@@ -106,7 +106,7 @@
                         </div>
                         <div>
                             <h3 class = "font-bold">View Your Tokens</h3>
-                            <p class="text-[15px] text-deep-purple">Simply add the Froska token address to your Metis-compatible wallet (like MetaMask) to monitor your balance.</p>
+                            <p class="text-[15px] text-teal-100">Simply add the Froska token address to your Metis-compatible wallet (like MetaMask) to monitor your balance.</p>
                         </div>
                     </div>
                     <div class= "flex gap-4">
@@ -115,7 +115,7 @@
                         </div>
                         <div>
                             <h3 class = "font-bold">Deposit and Play</h3>
-                            <p class="text-[15px] text-deep-purple">Connect your wallet to the Froska gaming platform, deposit your tokens, and take your chance at the wheel. 
+                            <p class="text-[15px] text-teal-100">Connect your wallet to the Froska gaming platform, deposit your tokens, and take your chance at the wheel. 
 																	Spin to win and claim your exciting rewards!</p>
                         </div>
                     </div>
@@ -217,25 +217,30 @@
     </main>
 
     <footer class="flex-col justify-center items-center gap-y-[30px] bg-purple-950 py-8 px-[60px]">
-        <div class="flex">
-            <div class="image h-min">
-                <img src="media/FROSKA.svg" alt="Froska_Logo">
+        <div class="flex justify-evenly">
+            <div class="image -mt-16">
+                <img src="media/logo_froska.PNG" alt="Froska_Logo">
             </div>
             <div class="mt-3">
                 <ul class="flex-col">
                     <li class="list-none">
-                        <a href="#home" class="no-underline text-feat-text-col font-semibold ms-5 me-5">Contact Info</a>
+                        <a href="#home" class="no-underline text-feat-text-col font-semibold ms-5 me-5">Home</a>
                     </li>
                     <li class="list-none">
-                        <a href="#about" class="no-underline text-feat-text-col font-semibold ms-5 me-5">Terms of Service</a>
+                        <a href="#about" class="no-underline text-feat-text-col font-semibold ms-5 me-5">About</a>
                     </li>
                     <li class="list-none">
-                        <a href="#projects" class="no-underline text-feat-text-col font-semibold ms-5 me-5">Join the Community</a>
+                        <a href="#games" class="no-underline text-feat-text-col font-semibold ms-5 me-5">Games</a>
                     </li>
                 </ul>
             </div>  
         </div>
-        <div class = "flex gap-36 mt-6">
+        <div class="text-center">
+            <h1 class="text-2xl font-semibold mb-2.5 text-white">Disclaimer</h1>
+            <p class="text-[15px] text-white">This is not a financial advice. Conduct your own research and gamble responsibly. 
+                                                 Cryptocurrency values fluctuate and are subject to regional regulattions and taxes.</p>
+        </div>
+        <div class = "flex justify-around mt-12">
             <div class="text-sm mt-2.5">
                 <p>Copyright © <a href="#home" class="no-underline">2024 Froska</a> - All rights reserved
                 </p>
