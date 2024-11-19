@@ -12,7 +12,7 @@ module.exports = {
     },
 
       backgroundImage: {
-        'hero-pattern': "url('./media/Landing page.jpg')",
+        'hero-pattern': "url('./media/Landing page.JPG')",
         'games-pattern': "url('./media/OBSKLD0.jpg')"
       }
   },
