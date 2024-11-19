@@ -18,12 +18,20 @@ function headerShadow() {
 		navHeader.style.boxShadow = "0 1px 6px rgba(0, 0, 0, 0.1)";
 		navHeader.style.height = "70px";
 		navHeader.style.lineHeight = "70px";
+        navHeader.style.backgroundColor = "#a855f7";
+        navHeader.style.borderRadius = "25rem";
+        navHeader.style.borderWidth = "1.5px";
+        navHeader.style.borderColor = "black";
 	}
 	
 	else {
 		navHeader.style.boxShadow = "none";
 		navHeader.style.height = "90px";
 		navHeader.style.lineHeight = "90px";
+        navHeader.style.backgroundColor = "transparent";
+        navHeader.style.borderRadius = "0rem";
+        navHeader.style.borderWidth = "0";
+        navHeader.style.borderColor = "transparent";
 	}
 }
 
