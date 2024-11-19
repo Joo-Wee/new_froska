@@ -8,26 +8,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
 </head>
 <body class="text-white">
-    <header class = "flex fixed w-full h-24 leading-loose justify-between bg-header-color ps-[4vw] pe-[4vw] z-50">
-        <nav id="header" class="max-[900px]:mx-12 flex mx-auto my-5">
+    <header class = "flex fixed w-full h-24 leading-loose justify-center ps-[4vw] pe-[4vw] z-50 gap-80">
+        <nav id="header" class="max-[900px]:mx-12 flex ml-0 my-5">
             <div class="image flex-initial">
                 <img src="media/FROSKA.svg" alt="Froska_Logo">
             </div>
 
             <div id="myNavMenu" class="nav-menu">
-                <ul class = "max-[900px]:flex-col flex text-center uppercase">
+                <ul class = "max-[900px]:flex-col flex text-center capitalize">
                     <li class="nav_list"><a href="#home" class="nav-link">Home</a></li>
-                    <li class="nav_list"><a href="#how_it_works" class="nav-link">How It Works</a></li>
+                    <li class="nav_list"><a href="#buy" class="nav-link">Buy</a></li>
                     <li class="nav_list"><a href="#games" class="nav-link">Games</a></li>
-                    <li class="nav_list"><a href="#tokenomics" class="nav-link">Tokenomics</a></li>
-                    <li class="nav_list"><a href="#community" class="nav-link">Community</a></li>
-                    <li class="nav_list"><a href="#buy_tokens" class="nav-link">Buy Tokens</a></li>
+                    <li class="nav_list"><a href="#docs" class="nav-link">Docs</a></li>
+                    <li class="nav_list"><a href="#about" class="nav-link">About</a></li>
                     <li class="nav_list"><a href="#contacts" class="nav-link">Contacts</a></li>
                 </ul>
             </div>
 
+            <div class="flex gap-[10px]">
+                <div class="flex justify-center items-center w-10 h-10 rounded-3xl shadow-[0px_2px_5px_0px_rgba(0,0,0,0.25)] hover:text-[#6e57e0]"><i class="fa-brands fa-x-twitter"></i></div>
+                <div class="flex justify-center items-center w-10 h-10 rounded-3xl shadow-[0px_2px_5px_0px_rgba(0,0,0,0.25)] hover:text-[#6e57e0]"><i class="fa-brands fa-telegram"></i></div>
+                <div class="flex justify-center items-center w-10 h-10 rounded-3xl shadow-[0px_2px_5px_0px_rgba(0,0,0,0.25)] hover:text-[#6e57e0]"><i class="fa-brands fa-discord"></i></div>
+            </div>
+
             <div class="max-[900px]:hidden flex-initial w-44 ml-7 box-border">
-                <button class = "btn leading-none"><a href="#">Play Now <i class="fa-solid fa-gamepad"></i></a></button>
+                <button class = "btn bg-gradient-to-r from-slate-900 to-slate-300 leading-none"><a href="#">Play Now <i class="fa-solid fa-gamepad"></i></a></button>
             </div>
             <div class="max-[900px]:flex max-[900px]:items-center max-[900px]:justify-center hidden">
                 <i class="fa-solid fa-bars" onclick="myMenuFunction()"></i>
@@ -36,16 +41,16 @@
     </header>
 
     <main class="bg-gradient-to-br from-body-color to-purple-900">
-        <section id="home" class="max-[900px]:flex-col max-[900px]:justify-center max-[900px]:h-[100vh] ps-[4vw] pe-[4vw] relative flex flex-col h-full">
+        <section id="home" class="max-[900px]:flex-col max-[900px]:justify-center max-[900px]:h-[100vh] ps-[4vw] pe-[4vw] relative flex flex-col bg-hero-pattern bg-cover bg-center h-full">
             <div class="pt-[8.5rem] pb-12">
-                <div class="ps-8 pe-8 py-8 bg-hero-pattern bg-cover bg-center rounded-3xl drop-shadow-3xl">
-                    <p class ="featured-name word mr-[30vw]">Play, Win and Engage with Froska!</p>
+                <div class="ps-8 pe-8 py-8">
+                    <p class ="featured-name mr-[30vw]">PAWS AND SPIN</p>
+                    <p class ="max-[540px]:text-[40px] text-[50px] font-bold text-white my-5 pe-[16vw] mr-[30vw]">Where Degens Win</p>
                     <div class="featured-text-info">
-                        <p>The GambleFi Revolution on Metis</p>
+                        <p>The Memeblefi Revolution on Metis</p>
                     </div>
                     <div class = "featured-text-btn">
-                        <button class = "btn bg-turqoise-100"><a href="#games">Play Now <i class="fa-solid fa-gamepad"></i></a></button>
-                        <button class = "btn bg-purple-600"><a href="#">Learn More <i class="fa-regular fa-file"></i></a></button>						
+                        <button class = "btn bg-turqoise-100"><a href="#games">Play Now <i class="fa-solid fa-gamepad"></i></a></button>						
                     </div>
                 </div>
             </div>
