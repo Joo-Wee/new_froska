@@ -580,6 +580,7 @@ video {
 .nav-menu {
   margin-top: 0.625rem;
   margin-bottom: 0.625rem;
+  margin-left: 5rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
   --tw-text-opacity: 1;
@@ -615,8 +616,6 @@ video {
   cursor: pointer;
   border-radius: 1.5rem;
   border-width: 0px;
-  --tw-bg-opacity: 1;
-  background-color: rgb(110 87 224 / var(--tw-bg-opacity, 1));
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   padding-left: 1.25rem;
