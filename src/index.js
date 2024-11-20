@@ -52,6 +52,16 @@ sr.reveal('.social-icons', { delay: 200 });
 sr.reveal('.project-box', { interval: 200 });
 sr.reveal('top-header', {});
 
+const srBottom = ScrollReveal({
+    origin: 'bottom',
+    distance: '80px',
+    duration: 2000,
+    reset: true, // Reset animations on scroll
+});
+
+srBottom.reveal('.about-info', {delay: 150});
+srBottom.reveal('.tokenDown', {delay: 400})
+
 const srLeft = ScrollReveal({
     origin: 'left',
     distance: '80px',
@@ -60,7 +70,8 @@ const srLeft = ScrollReveal({
 });
 
 srLeft.reveal('.featured-image', { delay: 100 });
-srLeft.reveal('.contact-info', { delay: 100 });
+srLeft.reveal('.comeLeft', { delay: 100 });
+srLeft.reveal('.glitchText', {afterReveal: () => applyGlitchEffect('.glitchText') })
 
 const srRight = ScrollReveal({
     origin: 'right',
@@ -69,7 +80,7 @@ const srRight = ScrollReveal({
     reset: true,
 });
 
-srRight.reveal('.skills-box', { delay: 100 });
+srRight.reveal('.comeRight', { delay: 300 });
 
 // Glitch effect function
 function applyGlitchEffect(selector) {
