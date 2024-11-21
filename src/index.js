@@ -69,7 +69,7 @@ const srLeft = ScrollReveal({
     reset: true,
 });
 
-srLeft.reveal('.featured-image', { delay: 100 });
+srLeft.reveal('.another-box', { delay: 100 });
 srLeft.reveal('.comeLeft', { delay: 100 });
 srLeft.reveal('.glitchText', {afterReveal: () => applyGlitchEffect('.glitchText') })
 
