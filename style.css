@@ -135,9 +135,8 @@
    }
 
    .btn {
-      @apply font-medium py-3 px-5 border-0 rounded-3xl cursor-pointer duration-[400ms] 
-      bg-gradient-to-r from-purple-500 to-indigo-900 hover:bg-turqoise hover:text-white 
-   }
+    @apply font-bold py-3 px-5 border-0 rounded-md cursor-pointer duration-[400ms] hover:text-white 
+ }
 
    .featured-name {
       @apply text-[50px] font-bold text-white my-5;
