@@ -184,7 +184,19 @@
     }
 
     .top-side {
-      @apply flex flex-col;
+      @apply flex flex-col gap-1;
+    }
+
+    .first-mob{
+      @apply order-first pe-[35vw];
+    }
+
+    .color-cover{
+      @apply hidden;
+    }
+
+    .last-mob{
+      @apply order-last;
     }
 
     .featured-box{
@@ -202,6 +214,10 @@
     }
     .image, .image img{
         @apply w-[120px] h-60;
+    }
+
+    .game_cent{
+      @apply ms-[7vw] -me-[4vw];
     }
     .row{
         @apply flex flex-col justify-center gap-[50px];
